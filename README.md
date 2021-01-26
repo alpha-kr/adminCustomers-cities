@@ -10,7 +10,8 @@
 ## About Laravel
 1. Establecer esquema de base de datos y data predefinida R/Ver migraciones 
 2. Crear un comando custom que me permita correr el migrate de la base de datos y cargar la
-data predefinida. R/ la data se generada  atravez de factory comando php artisan loadData para escoger la cantidade de ciudades y clientes que desea crear.
+data predefinida.  
+R/ la data se generada  atravez de factory comando php artisan loadData para escoger la cantidade de ciudades y clientes que desea crear.
 3. Realizar CRUD para cada entidad R/Debe registrarse tener .env configurador para  el envio de emails
 variables usadas en desarrollo  
 
@@ -23,7 +24,7 @@ MAIL_HOST=smtp.gmail.com
 MAIL_PORT=587  
 
 MAIL_USERNAME=  
- 
+
 MAIL_PASSWORD=   
 
 MAIL_ENCRYPTION=tls  
