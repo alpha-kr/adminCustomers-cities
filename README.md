@@ -12,18 +12,30 @@
 2. Crear un comando custom que me permita correr el migrate de la base de datos y cargar la
 data predefinida. R/ la data se generada  atravez de factory comando php artisan loadData para escoger la cantidade de ciudades y clientes que desea crear.
 3. Realizar CRUD para cada entidad R/Debe registrarse tener .env configurador para  el envio de emails
-variables usadas en desarrollo
-APP_URL=http://localhost:3000
-MAIL_MAILER=smtp
-MAIL_HOST=smtp.gmail.com
-MAIL_PORT=587
-MAIL_USERNAME= 
-MAIL_PASSWORD= 
-MAIL_ENCRYPTION=tls
-MAIL_FROM_ADDRESS=miApp@Laravel.com
-MAIL_FROM_NAME="${APP_NAME}"
-QUEUE_CONNECTION=database
-DB_DATABASE=prueba
+variables usadas en desarrollo  
+
+APP_URL=http://localhost:3000  
+
+MAIL_MAILER=smtp  
+
+MAIL_HOST=smtp.gmail.com  
+
+MAIL_PORT=587  
+
+MAIL_USERNAME=  
+ 
+MAIL_PASSWORD=   
+
+MAIL_ENCRYPTION=tls  
+
+MAIL_FROM_ADDRESS=miApp@Laravel.com  
+
+MAIL_FROM_NAME="${APP_NAME}"  
+
+QUEUE_CONNECTION=database  
+
+DB_DATABASE=prueba  
+
 
 4. Se necesita que al registrar un usuario le llegue un email de registro exitoso que le permita establecer
 contraseña, usar colas y observer para el envio del correo R/ driver database usado para colas debe correr el comando php artisan queue:work antes de realizar el registro
