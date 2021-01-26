@@ -8,6 +8,7 @@
 </p>
 
 ## About Laravel
+En este proyecto se hizo uso de queues, notifications, softdelte, global scopes, middlewares, migrations, factories, seeder 
 1. Establecer esquema de base de datos y data predefinida R/Ver migraciones 
 2. Crear un comando custom que me permita correr el migrate de la base de datos y cargar la
 data predefinida.
