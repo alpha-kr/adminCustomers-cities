@@ -46,7 +46,7 @@ contraseña, usar colas y observer para el envio del correo R/ driver database u
 6. Utilizar paginación. R/ver contorladores de las entidades
 7. Crear un filtro de clientes segun la ciudad. R/ver vista index de la entidad customer
 8. Usar sesiones de usuarios (login) R/realizado
-9. Usar Bootstrap R/admin paper usa boostrap
+9. Usar Bootstrap R/se utilizo como template admin paper el cual usa boostrap este tiene licencia MIT
 10. Subir el código en un repositorio git. R/realizado
 Nota: Realizar el Proyecto utilizando POO y Laravel.
 ## License
